@@ -1,0 +1,79 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&family=Nova+Square&display=swap');
+
+/* font-family: 'Kalam', cursive;
+font-family: 'Nova Square', cursive; */
+.min-h-screen {
+  min-height: 100vh;
+}
+.bg-style{
+  background-color: #f0f0f0;
+border-radius: 34px;
+}
+.bg-red {
+  background-color: red;
+}
+.bg-blue{
+  background-color: blue;
+}
+.bg-green{
+  background-color: greenyellow;
+}
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+.text-center{
+  text-align: center;
+}
+.items-center {
+  align-items: center;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.justify-center{
+  justify-content: center;
+}
+.font-bold {
+  font-weight: bold;
+}
+.text-blue{
+  color: blue;
+}
+
+.flex {
+display: flex;
+}
+.flex-col{
+  flex-direction: column;
+}
+.flex-row{
+  flex-direction: row;
+  
+}
+.flex-wrap{
+  flex-wrap: wrap;
+}
+.my-1{
+  margin-top: 13px;
+  margin-bottom: 13px;
+}
+.px-1{
+  padding-right: 13px;
+  padding-left: 13px;
+}
+.my-2{
+  margin-top: 26px;
+  margin-bottom: 26px;
+}
+.px-2{
+  padding-right: 26px;
+  padding-left: 26px;
+}
+.rounded-3{border-radius: 10px;}
+
+.blink li:hover {
+    color: #fff;
+    background: blue;
+}

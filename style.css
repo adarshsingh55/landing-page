@@ -1,0 +1,169 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&family=Nova+Square&display=swap');
+
+/* font-family: 'Kalam', cursive;
+font-family: 'Nova Square', cursive; */
+*{margin: 0;
+    padding: 0;}
+
+    .contaner{
+        max-width: 80vw;
+        font-family: 'Kalam', cursive;
+    }
+
+    /* navbar */
+    .navbar{
+        display: flex;
+        padding: 15px;
+        font-family: 'Kalam', cursive;
+    }
+    .navbar li{
+        list-style: none;
+        margin:0 12px;
+        padding: 2px 4px;
+        border-radius: 3px;
+    }
+    nav .menu-btn i {
+        color: blue;
+        font-size: 22px;
+        cursor: pointer;
+        display: none;
+    }
+    input[type="checkbox"]{
+        display: none;
+    }
+
+    
+    /* .section1 */
+    .topleft{
+        min-height: 408px;
+        max-width: 40vw;
+    
+    }
+
+.topright{
+    min-height: 408px;
+}
+.section1{
+   
+}
+.section1 h1{font-size: 2rem;}
+.btn{
+    padding: 4px 12px;
+    border: 2ps solid black;
+    border-radius: 5px;
+    background: blue;
+    color: white;
+    cursor: pointer;
+}
+.logo{
+    width: 218px;
+padding: 5px auto; 
+}
+.main-img{
+    width: 360px;
+    padding: 17px 0;
+}
+
+/* .section2 */
+.section2 h1{font-size: 2rem;}
+.box{width: 100%;
+    }
+.boxes{
+  padding:5px 20px;
+ 
+}
+.boxes ul li{
+    list-style: none;
+    margin: 2px;
+}
+.card{
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 0 15px;
+   
+}
+.table{
+    width: 80vw;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+tbody th{
+    border-bottom: 2px solid black;
+}
+.bi{
+    border-bottom: 2px solid black;
+}
+thead{
+    border: 2px solid black;
+}
+
+
+/* midiea quary */
+@media (max-width:980px){
+ 
+  .topleft{
+    min-height: 408px;
+    max-width: 100%;
+   margin: 44px 0;
+
+}
+.topright{
+    min-height: 408px;
+width: 100vw;
+}
+.nav{
+    flex-direction:row;
+    padding: 10px;
+    background: rgb(230, 255, 104);
+    border-radius: 15px;
+    position: fixed;
+    width: 80vw;
+}
+.navbar{
+    flex-direction:column;
+  
+}
+nav .menu-btn i {
+    display: block;
+    
+}
+#click:checked ~ .menu-btn  i:before {
+    content: "\f101";
+}
+nav ul{
+    position: fixed;
+    top: 40px;
+    right: 100%;
+    background:rgb(230, 255, 104);
+    height: 200px;
+    width: 72%;
+    text-align: center;
+    display: block;
+    transition: all 0.3s ease;
+}
+#click:checked ~ ul{
+    right:14%;
+  }
+  nav ul li{
+    width: 100%;
+    margin: 40px 0;
+    color: blue;
+    cursor: pointer;
+  }
+  nav ul li:hover {
+    color: black;
+  }
+
+  .card{
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 0 25px;
+    height: 350px;
+}
+.box{width: 100%;
+    overflow-x: scroll;
+    
+}
+}
+
