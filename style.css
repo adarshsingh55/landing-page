@@ -167,3 +167,11 @@ nav ul{
 }
 }
 
+
+/*  bottom nav bar */
+.shift{
+    z-index: 2;
+    position: fixed;
+    bottom: 3rem;
+    width: 80%;
+}
